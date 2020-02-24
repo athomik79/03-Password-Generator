@@ -1,3 +1,11 @@
+// Add functions to object randomFunc
+var randomFunc = {
+    lower: getRandomLower,
+    upper: getRandomUpper,
+    number: getRandomNumber,
+    symbol: getRandomSymbol
+};
+
 // Generator functions
 // from charCode method on String object
 
@@ -18,4 +26,4 @@ function getRandomLower() {
   return symbols[Math.floor(Math.random() * symbols.length)];
  }
 
- console.log(getRandomLower());
+//  console.log(getRandomLower());
