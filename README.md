@@ -1,5 +1,5 @@
 # password-generator
-week three homework, random password generator
+A random password generator built with html, css and js
 
 To use the random password generator:
   1. Choose your password length; up to 20 characters
